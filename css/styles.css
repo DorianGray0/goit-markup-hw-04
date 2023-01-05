@@ -73,15 +73,6 @@ button {
   color: var(--color-accent);
 }
 
-/* ----(cards) h3/p  */
-
-.team-wrap {
-  letter-spacing: 0.02em;
-  background-color: var(--first-background-color);
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
 /* ----------------------portfolio */
 
 .button:hover,
@@ -89,15 +80,6 @@ button {
   color: var(--first-background-color);
   background-color: var(--color-accent);
   border-color: var(--color-accent);
-}
-
-/* -----(cards) h3/p */
-
-.option-wrap {
-  padding: 32px 16px;
-  background-color: var(--first-background-color);
-  border: 1px solid #e7e9fc;
-  border-top: none;
 }
 
 /* ----------------------------------HEADER */
@@ -177,10 +159,17 @@ button {
 /* --------------------------------section 1 HERO */
 
 .hero {
-  background-color: var(--color-headings);
+  max-width: 1440px;
   text-align: center;
   padding-top: 188px;
   padding-bottom: 188px;
+  margin: 0 auto;
+  background-color: var(--color-headings);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/bgi-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
@@ -297,6 +286,13 @@ button {
   flex-basis: calc((100% - 72px) / 4);
 }
 
+.team-wrap {
+  letter-spacing: 0.02em;
+  background-color: var(--first-background-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .team-subject {
   font-size: 20px;
   line-height: 1.2;
@@ -377,6 +373,13 @@ button {
 
 /* .option-link {
 } */
+
+.option-wrap {
+  padding: 32px 16px;
+  background-color: var(--first-background-color);
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
 
 .option-subject {
   font-family: 'Roboto', sans-serif;
