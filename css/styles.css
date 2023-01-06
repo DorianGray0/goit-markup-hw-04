@@ -160,6 +160,7 @@ button {
 
 .hero {
   max-width: 1440px;
+  min-height: 600px;
   text-align: center;
   padding-top: 188px;
   padding-bottom: 188px;
