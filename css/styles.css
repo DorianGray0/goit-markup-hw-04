@@ -327,7 +327,6 @@ button {
 
 .team-soc-list {
   display: flex;
-  font-weight: wrap;
   gap: 24px;
 }
 
