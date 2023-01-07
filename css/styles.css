@@ -221,6 +221,22 @@ button {
   flex-basis: calc((100% - 72px) / 4);
 }
 
+.functional-thumb {
+  height: 112px;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  background-color: var(--second-background-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.functional-icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
 .functional-title {
   font-size: 20px;
   line-height: 1.2;
