@@ -404,6 +404,13 @@ button {
   padding-bottom: 100px;
 }
 
+.footer > .container {
+  display: flex;
+}
+
+/* .footer-nav-wrap {
+} */
+
 .footer-navigation {
   margin-bottom: 16px;
 }
@@ -413,6 +420,46 @@ button {
   letter-spacing: 0.02em;
   color: var(--color-fon-img);
   width: 264px;
+}
+
+.footer-soc-wrap {
+  margin-left: 120px;
+}
+
+.footer-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.footer-soc-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.footer-soc-item {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-soc-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.footer-soc-icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 /* ---------------------------------------------------PORTFOLIO */
