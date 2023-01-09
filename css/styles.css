@@ -484,7 +484,8 @@ button {
   border-radius: 50%;
 }
 
-.footer-soc-link:hover {
+.footer-soc-link:hover,
+.footer-soc-link:focus {
   background-color: var(--color-success);
 }
 
