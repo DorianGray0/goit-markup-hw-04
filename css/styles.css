@@ -172,7 +172,8 @@ button {
   color: var(--color-accent);
 }
 
-.contacts-link:hover .header-contacts-icon {
+.contacts-link:hover .header-contacts-icon,
+.contacts-link:focus .header-contacts-icon {
   fill: var(--color-accent);
 }
 
@@ -366,6 +367,7 @@ button {
   height: 100%;
   border-radius: 50%;
   background-color: var(--color-accent);
+  outline: transparent;
 }
 
 .team-soc-link:hover,
@@ -494,6 +496,7 @@ button {
   height: 100%;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+  outline: transparent;
 }
 
 .footer-soc-link:hover,
@@ -545,6 +548,7 @@ button {
   padding: 12px 24px;
   border: 1px solid var(--color-fon-img);
   border-radius: 4px;
+  outline: transparent;
 }
 
 .button:hover,
