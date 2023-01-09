@@ -362,7 +362,8 @@ button {
   background-color: var(--color-accent);
 }
 
-.soc-icon {
+.soc-icon-team {
+  fill: var(--second-background-color);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -412,12 +413,12 @@ button {
   border-color: var(--color-accent);
 }
 
-.customers-link:hover .soc-icon,
-.customers-link:focus .soc-icon {
+.customers-link:hover .soc-icon-customers,
+.customers-link:focus .soc-icon-customers {
   fill: var(--color-accent);
 }
 
-.soc-icon {
+.soc-icon-customers {
   fill: var(--color-subtle-text);
   background-repeat: no-repeat;
   background-position: center;
@@ -490,6 +491,7 @@ button {
 }
 
 .footer-soc-icon {
+  fill: var(--second-background-color);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
