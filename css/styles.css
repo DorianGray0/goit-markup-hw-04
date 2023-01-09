@@ -362,6 +362,11 @@ button {
   background-color: var(--color-accent);
 }
 
+.team-soc-link:hover,
+.team-soc-link:focus {
+  background-color: var(--color-success);
+}
+
 .soc-icon-team {
   fill: var(--second-background-color);
   background-repeat: no-repeat;
