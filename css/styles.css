@@ -257,11 +257,9 @@ button {
   justify-content: center;
 }
 
-.functional-icon {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-}
+/* .functional-icon {
+  
+} */
 
 .functional-title {
   font-size: 20px;
@@ -383,9 +381,6 @@ button {
 
 .soc-icon-team {
   fill: currentColor;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
 
 /* -------------------------------------CUSTOMERS */
@@ -437,9 +432,6 @@ button {
 
 .soc-icon-customers {
   fill: currentColor;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
 
 /*  -----------------------------------------------------FOOTER */
@@ -511,9 +503,6 @@ button {
 
 .footer-soc-icon {
   fill: currentColor;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
 
 /* ---------------------------------------------------PORTFOLIO */
