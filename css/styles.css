@@ -172,9 +172,8 @@ button {
   color: var(--color-accent);
 }
 
-.contacts-link:hover .header-contacts-icon,
-.contacts-link:focus .header-contacts-icon {
-  fill: var(--color-accent);
+.header-contacts-icon {
+  fill: currentColor;
 }
 
 /* --------------------------------section 1 HERO */
@@ -369,6 +368,7 @@ button {
   border-radius: 50%;
   background-color: var(--color-accent);
   outline: transparent;
+  color: var(--second-background-color);
 }
 
 .team-soc-link:hover,
@@ -377,7 +377,7 @@ button {
 }
 
 .soc-icon-team {
-  fill: var(--second-background-color);
+  fill: currentColor;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -499,6 +499,7 @@ button {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   outline: transparent;
+  color: var(--second-background-color);
 }
 
 .footer-soc-link:hover,
@@ -507,7 +508,7 @@ button {
 }
 
 .footer-soc-icon {
-  fill: var(--second-background-color);
+  fill: currentColor;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
