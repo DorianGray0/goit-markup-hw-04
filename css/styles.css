@@ -172,8 +172,13 @@ button {
   color: var(--color-accent);
 }
 
+.contacts-link:focus .header-contacts-icon,
+.contacts-link:hover .header-contacts-icon {
+  fill: var(--color-accent);
+}
+
 .header-contacts-icon {
-  fill: currentColor;
+  fill: var(--color-text);
 }
 
 /* --------------------------------section 1 HERO */
@@ -421,20 +426,17 @@ button {
   border: 1px solid var(--color-subtle-text);
   border-radius: 5px;
   outline: transparent;
+  color: var(--color-subtle-text);
 }
 
 .customers-link:hover,
 .customers-link:focus {
   border-color: var(--color-accent);
-}
-
-.customers-link:hover .soc-icon-customers,
-.customers-link:focus .soc-icon-customers {
-  fill: var(--color-accent);
+  color: var(--color-accent);
 }
 
 .soc-icon-customers {
-  fill: var(--color-subtle-text);
+  fill: currentColor;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
